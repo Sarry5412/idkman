@@ -212,7 +212,7 @@
   })
 
 
-  elseif gethui then
+  if gethui then
     Window.Parent = gethui()
   else
     Window.Parent = CoreGui
